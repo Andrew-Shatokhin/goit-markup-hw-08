@@ -1,0 +1,39 @@
+.section.labor {
+  padding-top: 0;
+  padding-bottom: 94px;
+}
+
+.labor-list {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
+}
+
+.labor-list__img {
+  position: relative;
+  flex-basis: calc((100% - 60px) / 3);
+}
+
+.labor-list__box {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+.labor-list__text {
+  padding: 0;
+  margin: 0;
+  color: var(--secondary-text-color);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  vertical-align: top;
+}
