@@ -1,3 +1,4 @@
+@media screen and (max-width: 767px) {
 .hero {
   text-align: Center;
   padding-top: 200px;
@@ -9,11 +10,33 @@
     ),
     url(../../images/hero-mobile.jpg);
   background-size: cover;
-  max-width: 1600px;
-  height: 600px;
+  max-width: 480px;
+  height: 400px;
   margin: 0 auto;
 
 }
+
+}
+
+
+
+
+// .hero {
+//   text-align: Center;
+//   padding-top: 200px;
+//   padding-bottom: 200px;
+//   background-color: var(--hero-background-color);
+//   background-image: linear-gradient(
+//       rgba(47, 48, 58, 0.4),
+//       rgba(47, 48, 58, 0.4)
+//     ),
+//     url(../../images/hero-mobile.jpg);
+//   background-size: cover;
+//   max-width: 1600px;
+//   height: 600px;
+//   margin: 0 auto;
+
+// }
 
 
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),

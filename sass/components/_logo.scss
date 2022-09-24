@@ -3,11 +3,21 @@
   font-family: Raleway, sans-serif;
   text-decoration: none;
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+  font-size: 24px;
+  line-height: 1.17;
   text-align: Left;
   vertical-align: Top;
+  padding: 0;
 }
+
+@media screen and (min-width: 1200px) {
+  .logo {
+    font-size: 26px;
+  line-height: 1.19;
+  }
+}
+
+
 
 .logo__name,
 .logo-footer__name {
