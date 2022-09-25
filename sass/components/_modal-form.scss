@@ -4,7 +4,7 @@
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 20px;
-  line-height: 1.15;
+  line-height: 1.5;
   text-align: center;
   vertical-align: top;
 }
@@ -123,13 +123,14 @@
   align-items: center;
   color: var(--primary-text-color);
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: 12px;
+  line-height: 1.17;
   text-align: left;
   vertical-align: top;
 }
 
 .policy-link {
+  text-decoration: underline;
   color: var(--accent-color);
 }
 
@@ -151,4 +152,14 @@
   letter-spacing: 0.06em;
   cursor: pointer;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+@media screen and (min-width: 1200px) {
+  .modal-title {
+    line-height: 1.15;
+  }
+  .policy {
+    font-size: 14px;
+    line-height: 1.71;
+  }
 }

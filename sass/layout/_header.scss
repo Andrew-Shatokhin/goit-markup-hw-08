@@ -1,16 +1,19 @@
 .page-header {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  border-bottom: 1px solid #ececec;
 }
 
 .page-header__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid #ececec;
 }
 
 @media screen and (max-width: 767px) {
+  .page-header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
   .site-nav {
     display: none;
   }
@@ -28,10 +31,6 @@
 @media screen and (min-width: 768px) {
   .mobile-menu-btn {
     display: none;
-  }
-  .page-header {
-    padding-top: 0;
-    padding-bottom: 0;
   }
 
   .page-nav {
@@ -52,7 +51,6 @@
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
-
     color: var(--title-text-color);
     text-decoration: none;
     font-weight: 500;
@@ -68,11 +66,8 @@
   }
 
   .site-nav__link_current {
-    color: var(--accent-color);
-  }
-
-  .site-nav__link_current {
     position: relative;
+    color: var(--accent-color);
 
     &::after {
       content: "";
@@ -144,8 +139,6 @@
     margin-left: 93px;
   }
 
-  /* Контакти в хедері */
-
   .contact {
     display: flex;
     margin-left: auto;
@@ -160,10 +153,6 @@
     margin-left: 50px;
   }
 
-  .page-header .container {
-    display: flex;
-  }
-
   .contact__icon-mail,
   .contact__icon-tel {
     margin-right: 10px;
@@ -173,7 +162,6 @@
   .contact__tel {
     padding-top: 32px;
     padding-bottom: 32px;
-
     font-size: 14px;
     line-height: 1.14;
   }

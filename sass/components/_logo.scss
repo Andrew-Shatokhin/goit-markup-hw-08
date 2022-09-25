@@ -13,26 +13,34 @@
 @media screen and (min-width: 1200px) {
   .logo {
     font-size: 26px;
-  line-height: 1.19;
+    line-height: 1.19;
   }
 }
-
-
 
 .logo__name,
 .logo-footer__name {
   color: var(--accent-color);
 }
 
+//============== Лого у Футері ======
 .logo-footer {
-  display: inline-block;
+  display: block;
   margin-bottom: 20px;
   color: var(--secondary-text-color);
   font-family: Raleway, sans-serif;
   text-decoration: none;
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  text-align: Left;
+  font-size: 24px;
+  line-height: 1.17;
+  text-align: center;
   vertical-align: Top;
+}
+
+@media screen and (min-width: 1200px) {
+  .logo-footer {
+    display: inline-block;
+    font-size: 26px;
+    line-height: 1.19;
+    text-align: Left;
+  }
 }

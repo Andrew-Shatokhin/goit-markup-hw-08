@@ -29,16 +29,29 @@
   }
 }
 
-.btn-list,
-.project-list {
+.btn-list {
   display: flex;
+  flex-wrap: wrap;
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
 .btn-list {
-  justify-content: center;
+  justify-content: flex-start;
   column-gap: 8px;
-  margin-bottom: 50px;
+  row-gap: 15px;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .btn-list {
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .btn-list {
+    margin-bottom: 50px;
+  }
 }
