@@ -415,6 +415,10 @@ body {
     padding-top: 48px;
     padding-left: 40px;
     padding-bottom: 48px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
   }
   .mobile-menu__close-btn {
     position: absolute;
@@ -426,7 +430,7 @@ body {
     line-height: 0;
   }
   .mobile-nav {
-    margin-bottom: 306px;
+    margin-bottom: auto;
   }
   .mobile-nav__item:not(:last-child) {
     margin-bottom: 32px;
